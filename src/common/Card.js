@@ -142,7 +142,7 @@ class Card {
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="24"
           height="99%"
           stroke="#E4E2E2"
           width="${this.width - 1}"
