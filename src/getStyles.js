@@ -65,7 +65,7 @@ const getStyles = ({
     }
     
     .bold { font-weight: 700 }
-    .label { color: #666 }
+    .label { fill: #666 }
     .icon {
       fill: ${iconColor};
       display: ${!!show_icons ? "block" : "none"};
