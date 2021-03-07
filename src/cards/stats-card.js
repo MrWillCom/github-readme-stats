@@ -34,7 +34,7 @@ const createTextNode = ({
   return `
     <g class="stagger" style="animation-delay: ${staggerDelay}ms" transform="translate(25, 0)">
       ${iconSvg}
-      <text class="stat bold" ${labelOffset} y="12.5">${label}:</text>
+      <text class="stat bold" ${labelOffset} y="12.5">${label}</text>
       <text 
         class="stat" 
         x="${(showIcons ? 140 : 120) + shiftValuePos}" 
